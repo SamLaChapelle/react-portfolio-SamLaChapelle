@@ -3,7 +3,7 @@ import React from "react";
 /* main cartoon picture of me imported */
 import Logo from "./assets/Untitled_Artwork 5.png";
 /* css file imported */
-import "./App.css";
+import "./main css/App.css";
 /* ALL COMPONENTS IMPORTED */
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
@@ -37,12 +37,12 @@ function App(props) {
         <Footer />
       </header>
       {/* body holds Projects, Work, About & Contact Form components */}
-      <body id="homeBody">
+      <div id="homeBody">
         <Projects />
         <Work />
         <About />
         <ContactForm />
-      </body>
+      </div>
     </div>
   );
 }

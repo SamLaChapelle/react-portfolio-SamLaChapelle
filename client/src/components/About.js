@@ -6,11 +6,11 @@ function About() {
     /* main div containing two about cells */
     <div>
       {/* main About section title */}
-      <h1 id="about-title" class="body-titles">
+      <h1 id="about-title" className="body-titles">
         ABOUT ME
       </h1>
       {/* About cell one containing a summary of where i am from, how i grew up, my interests and how i got to be where i am today */}
-      <div class="about-cells">
+      <div className="about-cells">
         <div id="about-one">
           <p id="about-blurb">
             I was born and raised in Boca Raton, Florida. As a true Floridian
@@ -36,13 +36,13 @@ function About() {
         </div>
         {/* About cell two containing a list of my hobbies and interests */}
         <div id="about-two">
-          <p id="hobbies">
+          <div id="hobbies">
             <h3>HOBBIES / INTERESTS</h3>
             <p>Content Creation - I Movie | Final Cut Pro</p>
             <p>Graphic Design - Procreate | InkScape</p>
             <p>Video Games - XBOX | Rocket League | Call of Duty</p>
             <p>Sports - Basketball | Golf | Dancing</p>
-          </p>
+          </div>
         </div>
       </div>
     </div>

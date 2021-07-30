@@ -10,7 +10,7 @@ function Footer() {
     /* main div holds copyright info, contact info and social media info */
     <div id="footer">
       <h5>SAM LACHAPELLE©2021 | Richmond, Virginia</h5>
-      <h5 class="footer-info">
+      <h5 className="footer-info">
         Contact Me:
         {/* email image linked to mailto: which allows the user to create a draft and prepare an email to be sent to my personal email */}
         <a href="mailto:sambosauce@gmail.com">
@@ -21,7 +21,7 @@ function Footer() {
           <img id="linkden-logo" src={LinkdenLogo} alt="linkden logo" />
         </a>
       </h5>
-      <h5 class="footer-info">
+      <h5 className="footer-info">
         Social Media:
         {/* instagram image linked to my instagram account page */}
         <a href="https://www.instagram.com/sambo_sauce/">

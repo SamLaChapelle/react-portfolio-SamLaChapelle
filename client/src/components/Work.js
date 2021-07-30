@@ -8,10 +8,10 @@ function Work() {
     /* main div holds clickable/download of resume picture & Three work cells */
     <div>
       {/* work section title */}
-      <h1 id="work-title" class="body-titles">
+      <h1 id="work-title" className="body-titles">
         WORK
       </h1>
-      <div class="work-cells">
+      <div className="work-cells">
         {/* text informing user they can click the resume picture to download it & resume picture linked to the resume file with download feature */}
         <h3 id="resume-download">Click Image To Download</h3>
         <div id="work-one">
@@ -24,24 +24,24 @@ function Work() {
         </div>
         {/* Three work cells */}
         <div id="work-two">
-          <p class="work-desc">
-            <div class="work-text">
+          <div className="work-desc">
+            <div className="work-text">
               {/* career goals cell containing a paragraph of my goals */}
-              <h3 class="work-text-titles">Career Goals:</h3>I am very excited
-              to start my career in the tech industry. As a creative big picture
-              thinker my current goal is to get hired working a full time
-              position in front end development. Being very personable I see
-              myself working very well on team projects and keeping the
+              <h3 className="work-text-titles">Career Goals:</h3>I am very
+              excited to start my career in the tech industry. As a creative big
+              picture thinker my current goal is to get hired working a full
+              time position in front end development. Being very personable I
+              see myself working very well on team projects and keeping the
               communication clear and precise for maximum efficiency/work flow.
               Within the next five years gaining more knowledge and experience I
               will have side projects of my own to keep my skills sharp building
               and creating my own brand.
             </div>
-          </p>
-          <p class="work-desc">
-            <div class="work-text">
+          </div>
+          <div className="work-desc">
+            <div className="work-text">
               {/* prior employers cell containing a list of all of my prior employers */}
-              <h3 class="work-text-titles">Prior Employers:</h3>
+              <h3 className="work-text-titles">Prior Employers:</h3>
               <ul>
                 <li>
                   The First Tee of Greater Richmond (Chapter) Richmond, VA Nov
@@ -59,11 +59,11 @@ function Work() {
                 <li>Texas Roadhouse Server Assistant Aug 2015 – Jan 2017</li>
               </ul>
             </div>
-          </p>
-          <p class="work-desc">
-            <div class="work-text">
+          </div>
+          <div className="work-desc">
+            <div className="work-text">
               {/* Skills & Experience cell containing a list of my skills and experience */}
-              <h3 class="work-text-titles">Skills & Experience:</h3>
+              <h3 className="work-text-titles">Skills & Experience:</h3>
               <ul>
                 <li>Languages - JavaScript | CSS | HTML | Command Line</li>
                 <li>Frameworks - WebAPI | React | Node.js</li>
@@ -80,7 +80,7 @@ function Work() {
                 </li>
               </ul>
             </div>
-          </p>
+          </div>
         </div>
       </div>
     </div>

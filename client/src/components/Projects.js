@@ -16,19 +16,19 @@ function Projects(props) {
     /* main div holds each projects cell & github cell */
     <div>
       {/* project section title */}
-      <h1 id="project-nav" class="body-titles">
+      <h1 id="project-nav" className="body-titles">
         PROJECTS
       </h1>
-      <div class="project-cells">
+      <div className="project-cells">
         <div id="project-one">
           {/* project one image */}
           <img
-            class="project-sc"
+            className="project-sc"
             src={ProjectOne}
-            alt="Guess the number project picture"
+            alt="Guess the number project"
           />
           {/* project one description */}
-          <p class="project-desc">
+          <p className="project-desc">
             Guess The Number was created in a Node.js environment using VS Code
             text editor. When the file is ran in the terminal, you are prompted
             with the game description. You can either play the normal version
@@ -36,14 +36,14 @@ function Projects(props) {
             where you are trying to guess the computers number. Check out the
             code on GitHub below.
           </p>
-          <h3 class="project-titles">GUESS THE NUMBER</h3>
+          <h3 className="project-titles">GUESS THE NUMBER</h3>
           {/* small github logo image linked to project one's repository */}
           <a
-            class="project-links"
+            className="project-links"
             href="https://github.com/burlingtoncodeacademy-students/guess-the-number-SamLaChapelle"
           >
             <img
-              class="project-github"
+              className="project-github"
               src={ProjectGitPic}
               alt="Git Hub logo linked to Guess the number project repository"
             />
@@ -53,12 +53,12 @@ function Projects(props) {
         {/* project two image */}
         <div id="project-two">
           <img
-            class="project-sc"
+            className="project-sc"
             src={ProjectTwo}
-            alt="Zorkington project picture"
+            alt="Zorkington project"
           />
           {/* project two description */}
-          <p class="project-desc">
+          <p className="project-desc">
             Zorkington is an escape room style text adventure that was created
             in a Node.js environment using VS Code text editor. When the file is
             ran in the terminal, you are prompted with the game description.
@@ -66,14 +66,14 @@ function Projects(props) {
             As well as move from room to room finding clues and trying to escape
             and beat the game!
           </p>
-          <h3 class="project-titles">Zorkington</h3>
+          <h3 className="project-titles">Zorkington</h3>
           {/* small github logo image linked to project two's repository */}
           <a
-            class="project-links"
+            className="project-links"
             href="https://github.com/burlingtoncodeacademy-students/zorkington-SamLaChapelle"
           >
             <img
-              class="project-github"
+              className="project-github"
               src={ProjectGitPic}
               alt="Git Hub logo linked to Zorkington project repository"
             />
@@ -84,12 +84,12 @@ function Projects(props) {
         <div id="project-three">
           <img
             id="project-three-sc"
-            class="project-sc"
+            className="project-sc"
             src={ProjectThree}
-            alt="Tic Tac Toe project picture"
+            alt="Tic Tac Toe project"
           />
           {/* project three description */}
-          <p class="project-desc">
+          <p className="project-desc">
             Tic Tac Toe is exactly what you think it is... This project was
             split in to two parts and created inside the DOM using VS Code text
             editor. The first part was creating the website itself through HTML
@@ -97,14 +97,14 @@ function Projects(props) {
             created in the DOM in JavaScript. You can play versus the computer
             or with a friend!
           </p>
-          <h3 class="project-titles">Tic Tac Toe</h3>
+          <h3 className="project-titles">Tic Tac Toe</h3>
           {/* small github logo image linked to project three's repository */}
           <a
-            class="project-links"
+            className="project-links"
             href="https://github.com/burlingtoncodeacademy-students/tic-tac-toe-SamLaChapelle"
           >
             <img
-              class="project-github"
+              className="project-github"
               src={ProjectGitPic}
               alt="Git Hub logo linked to Tic Tac Toe project repository"
             />
@@ -117,41 +117,41 @@ function Projects(props) {
           <img id="github-name" src={GitHubName} alt="Git Hub" />
           {/* github account name linked to personal github account */}
           <a
-            class="project-links"
+            className="project-links"
             href="https://github.com/SamLaChapelle/samgithub-repo"
           >
-            <h3 id="personal-github" class="project-titles">
+            <h3 id="personal-github" className="project-titles">
               SamLaChapelle
             </h3>
             <p id="under-personal-github">Personal GitHub Account</p>
           </a>
           {/* list of github repositories */}
-          <p id="github-list">
+          <div id="github-list">
             Click a project name to go to it's repository
             <ul>
               {/* project one linked to its repository */}
               <a
-                class="project-links"
+                className="project-links"
                 href="https://github.com/burlingtoncodeacademy-students/guess-the-number-SamLaChapelle"
               >
                 <li>Guess The Number</li>
               </a>
               {/* project two linked to its repository */}
               <a
-                class="project-links"
+                className="project-links"
                 href="https://github.com/burlingtoncodeacademy-students/zorkington-SamLaChapelle"
               >
                 <li>Zorkington</li>
               </a>
               {/* project three linked to its repository */}
               <a
-                class="project-links"
+                className="project-links"
                 href="https://github.com/burlingtoncodeacademy-students/tic-tac-toe-SamLaChapelle"
               >
                 <li>Tic Tac Toe</li>
               </a>
             </ul>
-          </p>
+          </div>
         </div>
       </div>
     </div>

@@ -18,13 +18,13 @@ function ContactForm() {
     /* main div contains the contact form */
     <div id="contact-form">
       {/* contact form section title */}
-      <h1 id="contact-form-title" class="project-titles">
+      <h1 id="contact-form-title" className="project-titles">
         CONTACT FORM
-        <p>
+        <div>
           {/* the contact form */}
           <form id="form">
             {/* the name section of contact form */}
-            <label class="form-titles">
+            <label className="form-titles">
               Name:
               {/* when the value of the input changes it updates itself */}
               <input
@@ -36,7 +36,7 @@ function ContactForm() {
               />
             </label>
             {/* the email section of contact form */}
-            <label class="form-titles">
+            <label className="form-titles">
               Email:
               {/* when the value of the input changes it updates itself */}
               <input
@@ -48,7 +48,7 @@ function ContactForm() {
               />
             </label>
             {/* the message section of contact form */}
-            <label class="form-titles">
+            <label className="form-titles">
               Message:
               {/* when the value of the input changes it updates itself */}
               <input
@@ -64,7 +64,7 @@ function ContactForm() {
               <input type="submit" value="Submit" onClick={handleSubmit} />
             </label>
           </form>
-        </p>
+        </div>
       </h1>
     </div>
   );
