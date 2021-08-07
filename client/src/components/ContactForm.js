@@ -16,11 +16,11 @@ function ContactForm() {
 
   return (
     /* main div contains the contact form */
-    <div id="contact-form">
+    <div id="contact-form" className="scrolling-box">
       {/* contact form section title */}
-      <h1 id="contact-form-title" className="project-titles">
+      <h1 id="contact-form-title">
         CONTACT FORM
-        <div>
+        <div id="form-container">
           {/* the contact form */}
           <form id="form">
             {/* the name section of contact form */}
