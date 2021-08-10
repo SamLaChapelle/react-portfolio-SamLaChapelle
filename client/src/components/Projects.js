@@ -14,7 +14,7 @@ import GitHubName from "../assets/project-sc/GitHub_Logo.png";
 function Projects(props) {
   return (
     /* main div holds each projects cell & github cell */
-    <div>
+    <div id="projects">
       {/* project section title */}
       <h1 id="project-nav" className="body-titles">
         PROJECTS

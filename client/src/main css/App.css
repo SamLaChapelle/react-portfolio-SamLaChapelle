@@ -41,10 +41,6 @@ header {
   z-index: 2;
 }
 
-.nav-links {
-  scroll-behavior: smooth;
-}
-
 .nav-links:hover {
   filter: invert(0.5);
   filter: drop-shadow(2px 2px rgb(255, 255, 255));
@@ -536,4 +532,124 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 1200px) {
+  #b-card {
+    margin-top: 60vh;
+  }
+  #fullName {
+    font-size: 2em;
+    margin-top: 5em;
+  }
+  #mainTitle {
+    font-size: 1.5em;
+    margin-top: 2em;
+  }
+  #mainDesc {
+    font-size: 1.5em;
+    margin-top: 2em;
+  }
+  #head-img {
+    height: 15em;
+    width: 10em;
+    margin-left: 5em;
+    margin-top: 2em;
+  }
+  .social {
+    margin-left: 15vw;
+    margin-top: 2em;
+  }
+  #mouse {
+    padding-left: 20vw;
+    padding-top: 2em;
+    margin-top: 10em;
+  }
+  .body-titles {
+    text-align: center;
+    margin-left: 0;
+  }
+  .project-cells {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+  }
+  .project-sc {
+    height: 10vh;
+  }
+  .project-titles {
+    font-size: 2em;
+  }
+  #project-one {
+    width: 85vw;
+  }
+  #project-two {
+    width: 85vw;
+  }
+  #project-three {
+    width: 85vw;
+  }
+  #project-three-sc {
+    width: 40vw;
+  }
+  #git-hub-cell {
+    width: 85vw;
+  }
+  #github-logo {
+    height: 10vh;
+    width: 20vw;
+  }
+  #personal-github {
+    margin-left: 2vw;
+  }
+  #github-name {
+    width: 50vw;
+  }
+  #work-title {
+    float: none;
+  }
+  .work-cells {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 0vh;
+  }
+  #work-one {
+    width: 45vw;
+    margin-left: 25vw;
+  }
+  #resume-sc {
+    width: 45vw;
+  }
+  #resume-download {
+    margin-left: 25vw;
+    margin-top: 2em;
+    width: 100vw;
+  }
+  #work-two {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-left: 2em;
+  }
+  .work-desc {
+    width: 75vw;
+    height: 45vh;
+    margin: 1em;
+  }
+  .about-cells {
+    display: flex;
+    flex-direction: column;
+  }
+  #about-one {
+    width: 75vw;
+  }
+  #about-two {
+    width: 75vw;
+  }
+  #form {
+    margin-left: 25vw;
+    width: 50vw;
+  }
 }
